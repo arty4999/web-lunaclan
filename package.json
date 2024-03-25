@@ -1,0 +1,25 @@
+{
+  "name": "@lunaclan/homepage",
+  "version": "1.0.0",
+  "author": "Arty <arty@lunaclan.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arty4999/web-lunaclan.git"
+  },
+  "keywords": ["homepage", "lunaclan", "web", "react", "next"],
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
