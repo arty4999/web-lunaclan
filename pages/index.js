@@ -1,15 +1,12 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import 'normalize.css'; // Normalize CSS across different browsers
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Luna Clan</title>
-        <link rel="icon" href="/favicon.png" />
-        <link rel="manifest" href="/manifest.webmanifest" />
-        <meta rel="description" content="Lunaclan Homepage" />
-        <meta name="theme-color" content="#ffffff"/>
       </Head>
 
       <main className={styles.main}>

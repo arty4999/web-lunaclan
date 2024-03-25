@@ -4,6 +4,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <link rel="icon" href="/favicon.png" />
+      <link rel="manifest" href="/manifest.webmanifest" />
+      <meta name="description" content="Lunaclan Homepage" />
+      <meta name="theme-color" content="#ffffff" />
       <body>
         <Main />
         <NextScript />

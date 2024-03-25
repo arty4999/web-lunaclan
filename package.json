@@ -6,7 +6,13 @@
     "type": "git",
     "url": "https://github.com/arty4999/web-lunaclan.git"
   },
-  "keywords": ["homepage", "lunaclan", "web", "react", "next"],
+  "keywords": [
+    "homepage",
+    "lunaclan",
+    "web",
+    "react",
+    "next"
+  ],
   "license": "GPL-3.0",
   "private": true,
   "scripts": {
@@ -16,10 +22,15 @@
   },
   "dependencies": {
     "next": "latest",
+    "normalize.css": "^8.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "engines": {
     "node": "18.17.1"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }

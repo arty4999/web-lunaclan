@@ -1,3 +1,8 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   min-height: 100vh;
   display: flex;
@@ -5,22 +10,14 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  color: #000;
+  color: #fff;
   border: none;
   margin: 0;
   padding: 0;
-}
-
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+  background-image: url('/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .title {
