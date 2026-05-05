@@ -24,4 +24,5 @@ jobs:
 
     - name: Build
       run: |
+        npm install next normalize.css react react-dom
         npm run build
