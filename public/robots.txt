@@ -1,0 +1,6 @@
+# robots.txt for Luna
+
+User-agent: *
+Allow: /
+
+Sitemap: https://lunaa.my/sitemap.xml
