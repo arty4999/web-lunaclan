@@ -5,12 +5,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Luna Clan</title>
+        <title>Lunaa</title>
+        {/* Forces the browser to download the background image immediately */}
+        <link rel="preload" href="/bg.webp" as="image" type="image/webp" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Luna Clan! 🌙
+          Welcome to Lunaa! 🌙
         </h1>
 
         <p className={styles.description}>

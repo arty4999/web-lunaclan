@@ -1,7 +1,18 @@
 import 'normalize.css';
-// If you have a globals.css file in your styles folder, import it here as well:
-// import '../styles/globals.css';
+// import '../styles/globals.css'; 
+import { Inter } from 'next/font/google';
+
+// Configure the font at module level
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    // Apply the font class to the root wrapper
+    <main className={inter.className}>
+      <Component {...pageProps} />
+    </main>
+  );
 }
