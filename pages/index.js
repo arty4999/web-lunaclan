@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import 'normalize.css'; // Normalize CSS across different browsers
 
 export default function Home() {
   return (

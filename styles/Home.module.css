@@ -1,15 +1,11 @@
-.body {
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  /* Changed fallback background to black so white text is visible if image fails */
+  background-color: #000; 
   color: #fff;
   border: none;
   margin: 0;
@@ -24,18 +20,11 @@
   margin: 0 0 1rem;
   line-height: 1.15;
   font-size: 3.6rem;
-}
-
-.title {
-  text-align: center;
-}
-
-.title,
-.description {
   text-align: center;
 }
 
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  text-align: center;
 }

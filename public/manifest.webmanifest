@@ -1,6 +1,6 @@
 {
-  "name": "Luna Clan",
-  "description": "LUNA Clan Homepage",
+  "name": "Luna",
+  "description": "LUNA Homepage",
   "short_name": "LUNA",
   "theme_color": "#fff",
   "background_color": "#fff",
@@ -45,16 +45,11 @@
     {
       "src": "ss.jpeg",
       "sizes": "2428x1276",
-      "type": "image/jpeg"
-    },
-    {
-      "src": "ss.jpeg",
-      "sizes": "2428x1276",
       "type": "image/jpeg",
       "form_factor": "wide"
     }
   ],
-  "display_override": 
-  ["window-controls-overlay"]
-  
+  "display_override": [
+    "window-controls-overlay"
+  ]
 }

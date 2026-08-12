@@ -1,7 +1,7 @@
 {
   "name": "@lunaclan/homepage",
   "version": "1.1.0",
-  "author": "Arty <arty@lunaclan.com>",
+  "author": "Arty <arty@lunaa.my>",
   "repository": {
     "type": "git",
     "url": "https://github.com/arty4999/web-lunaclan.git"
@@ -18,16 +18,17 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "latest",
-    "normalize.css": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "^16.3.0",
+    "normalize.css": "^8.0.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "engines": {
-    "node": "24.15.0"
+    "node": ">=24.0.0"
   },
   "browserslist": [
     "> 1%",
